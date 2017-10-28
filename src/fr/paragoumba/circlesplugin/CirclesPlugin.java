@@ -1,3 +1,5 @@
+package fr.paragoumba.circlesplugin;
+
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class CirclesPlugin extends JavaPlugin {
