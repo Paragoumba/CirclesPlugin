@@ -4,4 +4,4 @@ version: 1.0b3
 main: fr.paragoumba.circlesplugin.CirclesPlugin
 commands:
   circle:
-    usage: /circle <radius>
+    usage: /circle <radius> <precision>
