@@ -1,0 +1,6 @@
+name: CirclesPlugin
+main: CirclesPlugin
+version: dev
+author: Paragoumba
+commands:
+    circle:
