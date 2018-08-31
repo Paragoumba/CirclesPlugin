@@ -1,6 +1,6 @@
 name: CirclesPlugin
 author: Paragoumba
-version: 1.0b3
+version: 1.1b4
 main: fr.paragoumba.circlesplugin.CirclesPlugin
 commands:
   circle:

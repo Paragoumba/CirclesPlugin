@@ -25,16 +25,15 @@ public class CircleCommand implements CommandExecutor {
                 return false;
 
             }
-
         }
 
         return true;
+
     }
 
     private void makeCircle(Location loc, int radius, int deg){
 
         long start = System.nanoTime();
-
         World world = loc.getWorld();
         int y = loc.getBlockY();
 
@@ -42,8 +41,8 @@ public class CircleCommand implements CommandExecutor {
 
             int x = Math.round((float) (loc.getBlockX() + radius * Math.cos(Math.toRadians(i))));
             int z = Math.round((float) (loc.getBlockZ() + radius * Math.sin(Math.toRadians(i))));
-
             Location l = new Location(world, x, y, z);
+
             l.getBlock().setType(Material.SMOOTH_BRICK);
 
         }
